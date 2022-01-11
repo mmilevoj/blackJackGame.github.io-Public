@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Christmas BlackJack</h1>
+        <img src="/img/icons8-play-64.png" alt="picture-of-a-play-icon" id="playIcon" onclick="playMusic()">
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <audio src="/audio/style.mp3" id="mySong"></audio>
+        <button onclick="startGame()" class="btn">START GAME</button>
+        <button onclick="newCard() " class="btn">NEW CARD</button>
+    </div>
+        
+    <script src="index.js"></script>
+    
+</body>
+</html>
