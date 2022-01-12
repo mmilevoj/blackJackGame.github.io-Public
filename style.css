@@ -48,6 +48,7 @@ button {
   display: block;
   margin: auto;
   margin-bottom: 0.35em;
+  outline: none;
 }
 
 .btn:hover {
@@ -55,6 +56,8 @@ button {
   background-color: rgb(134, 133, 133);
   transition-duration: 0.4s;
   color: white;
+  outline: none;
+  border: none;
 }
 
 @media only screen and (min-width: 412px) and (max-width: 914px) and (orientation: landscape) {
