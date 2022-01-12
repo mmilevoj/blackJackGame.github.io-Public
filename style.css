@@ -1,142 +1,125 @@
 body,
 html {
- 
   width: 100%;
   margin: auto;
 }
 
-body{
-    background-image: url("/img/szabo-viktor-HRcpw5H01Lc-unsplash.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-   background-size: cover;
-   font-family: 'Recursive', sans-serif;
-    color:white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 3em;
-    margin-top: 10%;
+body {
+  background-image: url("img/szabo-viktor-HRcpw5H01Lc-unsplash.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Recursive", sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  margin-top: 10%;
 }
 
-
-
-
-img{
-background-color: white;
-border-radius: 25px;
+img {
+  background-color: white;
+  border-radius: 25px;
 }
 
+img:hover {
+  transform: scaleX(-1);
+}
 
-
-img:hover{
-    transform: scaleX(-1); 
-  }
-  
-
-.container{
-    width: 100%;
-    margin: auto;
-    backdrop-filter: blur(1px);
+.container {
+  width: 100%;
+  margin: auto;
+  backdrop-filter: blur(1px);
 }
 
 #message-el {
-    font-style: italic;   
+  font-style: italic;
 }
 
-
-
 button {
-    background-color:white;
+  background-color: white;
+  padding: 1em;
+  width: 200px;
+  border: none;
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-size: 1rem;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.35em;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(134, 133, 133);
+  transition-duration: 0.4s;
+  color: white;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 914px) and (orientation: landscape) {
+  .container {
+    font-size: 0.8em;
+  }
+  button {
+    background-color: white;
     padding: 1em;
     width: 200px;
     border: none;
     border-radius: 0.5em;
     font-weight: bold;
-    font-size: 1rem;
-    display: block;
+    font-size: 0.5em;
+    display: inline;
     margin: auto;
     margin-bottom: 0.35em;
-    
-    
+  }
 }
 
-.btn:hover {
-    cursor: pointer;
-    background-color: rgb(134, 133, 133);
-    transition-duration: 0.4s;
-    color: white;
-
+@media only screen and (min-width: 1200px) {
+  body {
+    margin-top: 2em;
+    font-size: 2em;
+  }
 }
-
-@media only screen and (min-width: 412px) and (max-width: 914px) and (orientation:landscape) {
-    .container{
-        font-size: 0.8em;
-    }
-    button{
-        background-color: white;
-        padding: 1em;
-        width: 200px;
-        border: none;
-        border-radius: 0.5em;
-        font-weight: bold;
-        font-size: 0.5em;
-        display: inline;
-        margin: auto;
-        margin-bottom: 0.35em;
-    }
-
-}     
-
- @media only screen and (min-width: 1200px)  {
-    body {
-        margin-top: 2em;
-        font-size: 2em;
-     }
-    }
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
-    body {
-        margin-top: 2em;
-        font-size: 1.9em;
-     }
-        }
+  body {
+    margin-top: 2em;
+    font-size: 1.9em;
+  }
+}
 
 @media only screen and (min-width: 980px) and (max-width: 1023px) {
-    body {
-        margin-top: 2em;
-        font-size: 1.8em;
-     }
-        }
-
+  body {
+    margin-top: 2em;
+    font-size: 1.8em;
+  }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 980px) {
-    body {
-        margin-top: 2em;
-        font-size: 1.5em;
-     }
-        }
+  body {
+    margin-top: 2em;
+    font-size: 1.5em;
+  }
+}
 
- @media only screen and (min-width: 480px) and (max-width: 768px) {
-    body {
-        margin-top: 2em;
-        font-size: 1.3em;
-     }
-    }
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    margin-top: 2em;
+    font-size: 1.3em;
+  }
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    body {
-        margin-top: 2em;
-        font-size: 2em;
-     }
-    }
+  body {
+    margin-top: 2em;
+    font-size: 2em;
+  }
+}
 
 @media only screen and (min-width: 100px) and (max-width: 320px) {
-    body {
-        margin-top: 2em;
-        font-size: 1em;
-         }
-        }
-
-                       
-            
+  body {
+    margin-top: 2em;
+    font-size: 1em;
+  }
+}
